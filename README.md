@@ -12,7 +12,7 @@ university hometask project
 - Запрос в OpenWeatherAPI для текущих данных о температуре
 - сравнение асинхронного и синхронного запроса к API
 
-## **Дополнительно: **
+## **Дополнительно:**
 - Добавлен sidebar && funny image
 
 <img width="2515" height="1481" alt="image" src="https://github.com/user-attachments/assets/397859d6-110a-4374-bada-a4a3c9aebd47" />
