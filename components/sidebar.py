@@ -11,6 +11,4 @@ def render_sidebar():
     st.sidebar.header("Настройки")
     st.sidebar.markdown("Загрузите данные и введите API ключ для начала работы")
 
-    st.sidebar.image("images/fire_meme.png",
-             caption="Студент без страданий не растет",
-             width=250)
+    st.sidebar.image("images/fire_meme.png", width=250)
