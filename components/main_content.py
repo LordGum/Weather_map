@@ -1,10 +1,9 @@
 import streamlit as st
-import pandas as pd
-from utils.data_processor import load_and_prepare_data, calculate_rolling_stats, get_season_stats
 from utils.visualization import create_time_series_plot, create_seasonal_boxplot
 from utils.api_client import get_temp_sync, get_temp_async, check_temperature_anomaly
 from utils.performance import compare_performance
 from utils.data_processor import analyze_city
+from utils.heatmap import render_weather_heatmap
 import asyncio
 import time
 
@@ -88,3 +87,7 @@ def render_current_temperature(api_key, selected_city, season_stats):
                 st.error("Ошибка API: Неверный ключ или город")
         except Exception as e:
             st.error(f"Ошибка: {e}")
+
+
+def render_heatmap(apikey):
+    render_weather_heatmap(apikey)
