@@ -1,21 +1,38 @@
-# Weather_map
-university hometask project
-https://weathermap-ork4rgkb8fpwdowsr8ppi4.streamlit.app
+# 🌦️ Weather Map
 
-## **Что сделано в проекте:** 
-- возможность добавить данные в формате csv
-- возможность выбрать город для анализа
-- анализ данных о погоде по городам за 10 лет (данные синтетические, но близакие к реальным значениям)
-- визуализация данные:
-    - график температуры за 10 лет
-    - аномалии на графике
-    - средняя температура за 30 дней
-    - heatmap температур и влажностей в 6 городах
-- Запрос в OpenWeatherAPI для текущих данных о температуре
-- сравнение асинхронного и синхронного запроса к API
+An interactive **Streamlit** dashboard for weather data analysis and visualization. The project uses synthetic historical weather data together with the OpenWeather API to explore trends, detect anomalies, and compare API performance.
 
-## **Дополнительно:**
-- Добавлен sidebar && funny image
+## ✨ Features
+
+* Upload custom CSV datasets
+* Analyze weather data by city
+* Interactive temperature visualizations
+* Temperature anomaly detection
+* 30-day moving average
+* Heatmaps for temperature and humidity
+* Current weather from the OpenWeather API
+* Synchronous vs. asynchronous API request comparison
+
+## 🛠 Tech Stack
+
+* Python
+* Streamlit
+* Pandas
+* Plotly
+* OpenWeather API
+* Asyncio
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/<your-username>/Weather_map.git
+cd Weather_map
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+This project was developed as a university assignment to practice data analysis, visualization, and API integration with Python.
+
 
 <img width="2515" height="1481" alt="image" src="https://github.com/user-attachments/assets/397859d6-110a-4374-bada-a4a3c9aebd47" />
 
