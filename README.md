@@ -1,8 +1,8 @@
-# 🌦️ Weather Map
+#  Weather Map
 
 An interactive **Streamlit** dashboard for weather data analysis and visualization. The project uses synthetic historical weather data together with the OpenWeather API to explore trends, detect anomalies, and compare API performance.
 
-## ✨ Features
+##  Features
 
 * Upload custom CSV datasets
 * Analyze weather data by city
@@ -13,7 +13,7 @@ An interactive **Streamlit** dashboard for weather data analysis and visualizati
 * Current weather from the OpenWeather API
 * Synchronous vs. asynchronous API request comparison
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * Python
 * Streamlit
@@ -22,7 +22,7 @@ An interactive **Streamlit** dashboard for weather data analysis and visualizati
 * OpenWeather API
 * Asyncio
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 git clone https://github.com/<your-username>/Weather_map.git
